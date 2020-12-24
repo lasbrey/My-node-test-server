@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About page</title>
-</head>
 
-<body>
     {{> header}}
-    <p>{{screamit welcomeMessage}}</p>
+    <section id="homepage">
 
-     {{> footer}}
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 intro">
+                    <div class="desc">
+                        <h1>👋{{screamit welcomeMessage}}</h1>
+                        <p>I am about to complete my second year of engineering from Computer branch. I love coding and
+                            is pasionate about open source development. I am pretty good in competetive coding. I use
+                            Python preferably as my development language. I am very much comfortable around
+                            Web-development world. I am currently exploring the world of deep-learning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    {{> footer}}
 </body>
 
 </html>
